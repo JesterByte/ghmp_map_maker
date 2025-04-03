@@ -61,7 +61,7 @@
   <script src="turf.min.js"></script>
 
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       // Initialize the map at the specified coordinates
       const map = L.map('map').setView([14.871186, 120.977913], 19); // Initial view
 
@@ -555,22 +555,22 @@
       createGraveColumn(startLat50, startLng50, numGraves50, 1, "A", 50);
 
       // New columns starting at a more appropriate latitude
-      const startLat51 = 14.87099;  // Adjusted latitude
+      const startLat51 = 14.87099; // Adjusted latitude
       const startLng51 = startLng50 + columnSpacing;
       const numGraves51 = 29;
       createGraveColumn(startLat51, startLng51, numGraves51, 1, "A", 51);
 
-      const startLat52 = 14.87098;  // Adjusted latitude
+      const startLat52 = 14.87098; // Adjusted latitude
       const startLng52 = startLng51 + columnSpacing;
       const numGraves52 = 30;
       createGraveColumn(startLat52, startLng52, numGraves52, 1, "A", 52);
 
-      const startLat53 = 14.87097;  // Adjusted latitude
+      const startLat53 = 14.87097; // Adjusted latitude
       const startLng53 = startLng52 + columnSpacing;
       const numGraves53 = 31;
       createGraveColumn(startLat53, startLng53, numGraves53, 1, "A", 53);
 
-      const startLat54 = 14.87097;  // Adjusted latitude
+      const startLat54 = 14.87097; // Adjusted latitude
       const startLng54 = startLng53 + columnSpacing;
       const numGraves54 = 31;
       createGraveColumn(startLat54, startLng54, numGraves54, 1, "A", 54);
@@ -579,82 +579,82 @@
 
       ///////////
       // Phase 1 Lawn B (Should contain approximately 509 graves)
-      const startLat55 = 14.87095;  // Adjusted latitude
+      const startLat55 = 14.87095; // Adjusted latitude
       const startLng55 = startLng54 + columnSpacing + columnSpacing;
       const numGraves55 = 32;
       createGraveColumn(startLat55, startLng55, numGraves55, 1, "B", 55);
 
-      const startLat56 = 14.87095;  // Adjusted latitude
+      const startLat56 = 14.87095; // Adjusted latitude
       const startLng56 = startLng55 + columnSpacing;
       const numGraves56 = 32;
       createGraveColumn(startLat56, startLng56, numGraves56, 1, "B", 56);
 
-      const startLat57 = 14.87094;  // Adjusted latitude
+      const startLat57 = 14.87094; // Adjusted latitude
       const startLng57 = startLng56 + columnSpacing;
       const numGraves57 = 33;
       createGraveColumn(startLat57, startLng57, numGraves57, 1, "B", 57);
 
-      const startLat58 = 14.87094;  // Adjusted latitude
+      const startLat58 = 14.87094; // Adjusted latitude
       const startLng58 = startLng57 + columnSpacing;
       const numGraves58 = 33;
       createGraveColumn(startLat58, startLng58, numGraves58, 1, "B", 58);
 
-      const startLat59 = 14.87092;  // Adjusted latitude
+      const startLat59 = 14.87092; // Adjusted latitude
       const startLng59 = startLng58 + columnSpacing;
       const numGraves59 = 34;
       createGraveColumn(startLat59, startLng59, numGraves59, 1, "B", 59);
 
-      const startLat60 = 14.87092;  // Adjusted latitude
+      const startLat60 = 14.87092; // Adjusted latitude
       const startLng60 = startLng59 + columnSpacing;
       const numGraves60 = 34;
       createGraveColumn(startLat60, startLng60, numGraves60, 1, "B", 60);
 
-      const startLat61 = 14.87092;  // Adjusted latitude
+      const startLat61 = 14.87092; // Adjusted latitude
       const startLng61 = startLng60 + columnSpacing;
       const numGraves61 = 34;
       createGraveColumn(startLat61, startLng61, numGraves61, 1, "B", 61);
 
-      const startLat62 = 14.87091;  // Adjusted latitude
+      const startLat62 = 14.87091; // Adjusted latitude
       const startLng62 = startLng61 + columnSpacing;
       const numGraves62 = 35;
       createGraveColumn(startLat62, startLng62, numGraves62, 1, "B", 62);
 
-      const startLat63 = 14.87090;  // Adjusted latitude
+      const startLat63 = 14.87090; // Adjusted latitude
       const startLng63 = startLng62 + columnSpacing;
       const numGraves63 = 36;
       createGraveColumn(startLat63, startLng63, numGraves63, 1, "B", 63);
 
-      const startLat64 = 14.87090;  // Adjusted latitude
+      const startLat64 = 14.87090; // Adjusted latitude
       const startLng64 = startLng63 + columnSpacing;
       const numGraves64 = 36;
       createGraveColumn(startLat64, startLng64, numGraves64, 1, "B", 64);
 
-      const startLat65 = 14.87089;  // Adjusted latitude
+      const startLat65 = 14.87089; // Adjusted latitude
       const startLng65 = startLng64 + columnSpacing;
       const numGraves65 = 37;
       createGraveColumn(startLat65, startLng65, numGraves65, 1, "B", 65);
 
-      const startLat66 = 14.87088;  // Adjusted latitude
+      const startLat66 = 14.87088; // Adjusted latitude
       const startLng66 = startLng65 + columnSpacing;
       const numGraves66 = 37;
       createGraveColumn(startLat66, startLng66, numGraves66, 1, "B", 66);
 
-      const startLat67 = 14.87088;  // Adjusted latitude
+      const startLat67 = 14.87088; // Adjusted latitude
       const startLng67 = startLng66 + columnSpacing;
       const numGraves67 = 37;
       createGraveColumn(startLat67, startLng67, numGraves67, 1, "B", 67);
 
-      const startLat68 = 14.87087;  // Adjusted latitude
+      const startLat68 = 14.87087; // Adjusted latitude
       const startLng68 = startLng67 + columnSpacing;
       const numGraves68 = 38;
       createGraveColumn(startLat68, startLng68, numGraves68, 1, "B", 68);
 
-      const startLat69 = 14.87087;  // Adjusted latitude
+      const startLat69 = 14.87087; // Adjusted latitude
       const startLng69 = startLng68 + columnSpacing;
       const numGraves69 = 38;
       createGraveColumn(startLat69, startLng69, numGraves69, 1, "B", 69);
 
-      const startLat70 = 14.87086;  // Adjusted latitude
+      const startLat70 = 14.87086; // Adjusted latitude
       const startLng70 = startLng69 + columnSpacing;
       const numGraves70 = 39;
       createGraveColumn(startLat70, startLng70, numGraves70, 1, "B", 70);
@@ -662,224 +662,324 @@
 
 
       // Phase 1 Lawn E (Should contain approximately 799 graves)
-      const startLat71 = 14.87080;  // Adjusted latitude
-      const startLng71 = startLng70 + columnSpacing + columnSpacing + columnSpacing + columnSpacing
-        + columnSpacing + columnSpacing + columnSpacing + columnSpacing;
+      const startLat71 = 14.87080; // Adjusted latitude
+      const startLng71 = startLng70 + columnSpacing + columnSpacing + columnSpacing + columnSpacing +
+        columnSpacing + columnSpacing + columnSpacing + columnSpacing;
       const numGraves71 = 40; // adjust the graves
       createGraveColumn(startLat71, startLng71, numGraves71, 1, "E", 71);
 
-      const startLat72 = 14.87080;  // Adjusted latitude
+      const startLat72 = 14.87080; // Adjusted latitude
       const startLng72 = startLng71 + columnSpacing;
-      const numGraves72 = 40;  // adjust the graves 
+      const numGraves72 = 40; // adjust the graves 
       createGraveColumn(startLat72, startLng72, numGraves72, 1, "E", 72);
 
-      const startLat73 = 14.87079;  // Adjusted latitude
+      const startLat73 = 14.87079; // Adjusted latitude
       const startLng73 = startLng72 + columnSpacing;
       const numGraves73 = 42; // adjust the graves
       createGraveColumn(startLat73, startLng73, numGraves73, 1, "E", 73);
 
-      const startLat74 = 14.87078;  // Adjusted latitude
+      const startLat74 = 14.87078; // Adjusted latitude
       const startLng74 = startLng73 + columnSpacing;
       const numGraves74 = 45; // adjust the graves
       createGraveColumn(startLat74, startLng74, numGraves74, 1, "E", 74);
 
-      const startLat75 = 14.87077;  // Adjusted latitude
+      const startLat75 = 14.87077; // Adjusted latitude
       const startLng75 = startLng74 + columnSpacing;
       const numGraves75 = 47; // adjust the graves
       createGraveColumn(startLat75, startLng75, numGraves75, 1, "E", 75);
 
-      const startLat76 = 14.87076;  // Adjusted latitude
+      const startLat76 = 14.87076; // Adjusted latitude
       const startLng76 = startLng75 + columnSpacing;
       const numGraves76 = 48; // adjust the graves
       createGraveColumn(startLat76, startLng76, numGraves76, 1, "E", 76);
 
-      const startLat77 = 14.87075;  // Adjusted latitude
+      const startLat77 = 14.87075; // Adjusted latitude
       const startLng77 = startLng76 + columnSpacing;
       const numGraves77 = 49; // adjust the graves
       createGraveColumn(startLat77, startLng77, numGraves77, 1, "E", 77);
 
-      const startLat78 = 14.87074;  // Adjusted latitude
+      const startLat78 = 14.87074; // Adjusted latitude
       const startLng78 = startLng77 + columnSpacing;
       const numGraves78 = 50; // adjust the graves
       createGraveColumn(startLat78, startLng78, numGraves78, 1, "E", 78);
 
-      const startLat79 = 14.87073;  // Adjusted latitude
+      const startLat79 = 14.87073; // Adjusted latitude
       const startLng79 = startLng78 + columnSpacing;
       const numGraves79 = 51; // adjust the graves
       createGraveColumn(startLat79, startLng79, numGraves79, 1, "E", 79);
 
-      const startLat80 = 14.87072;  // Adjusted latitude
+      const startLat80 = 14.87072; // Adjusted latitude
       const startLng80 = startLng79 + columnSpacing;
       const numGraves80 = 52; // adjust the graves
       createGraveColumn(startLat80, startLng80, numGraves80, 1, "E", 80);
 
-      const startLat81 = 14.87071;  // Adjusted latitude
+      const startLat81 = 14.87071; // Adjusted latitude
       const startLng81 = startLng80 + columnSpacing;
       const numGraves81 = 53; // adjust the graves
       createGraveColumn(startLat81, startLng81, numGraves81, 1, "E", 81);
 
-      const startLat82 = 14.87069;  // Adjusted latitude
+      const startLat82 = 14.87069; // Adjusted latitude
       const startLng82 = startLng81 + columnSpacing;
       const numGraves82 = 55; // adjust the graves
       createGraveColumn(startLat82, startLng82, numGraves82, 1, "E", 82);
 
-      const startLat83 = 14.87068;  // Adjusted latitude
+      const startLat83 = 14.87068; // Adjusted latitude
       const startLng83 = startLng82 + columnSpacing;
       const numGraves83 = 55; // adjust the graves
       createGraveColumn(startLat83, startLng83, numGraves83, 1, "E", 83);
 
-      const startLat84 = 14.87067;  // Adjusted latitude
+      const startLat84 = 14.87067; // Adjusted latitude
       const startLng84 = startLng83 + columnSpacing;
       const numGraves84 = 56; // adjust the graves
       createGraveColumn(startLat84, startLng84, numGraves84, 1, "E", 84);
 
-      const startLat85 = 14.87066;  // Adjusted latitude
+      const startLat85 = 14.87066; // Adjusted latitude
       const startLng85 = startLng84 + columnSpacing;
       const numGraves85 = 57; // adjust the graves
       createGraveColumn(startLat85, startLng85, numGraves85, 1, "E", 85);
 
-      const startLat86 = 14.87064;  // Adjusted latitude
+      const startLat86 = 14.87064; // Adjusted latitude
       const startLng86 = startLng85 + columnSpacing;
       const numGraves86 = 59; // adjust the graves
       createGraveColumn(startLat86, startLng86, numGraves86, 1, "E", 86);
 
-      const startLat87 = 14.87063;  // Adjusted latitude
+      const startLat87 = 14.87063; // Adjusted latitude
       const startLng87 = startLng86 + columnSpacing;
       const numGraves87 = 52; // adjust the graves
       createGraveColumn(startLat87, startLng87, numGraves87, 1, "E", 87);
 
-      const startLat88 = 14.87062;  // Adjusted latitude
+      const startLat88 = 14.87062; // Adjusted latitude
       const startLng88 = startLng87 + columnSpacing;
       const numGraves88 = 47; // adjust the graves
       createGraveColumn(startLat88, startLng88, numGraves88, 1, "E", 88);
 
-      const startLat89 = 14.87060;  // Adjusted latitude
+      const startLat89 = 14.87060; // Adjusted latitude
       const startLng89 = startLng88 + columnSpacing;
       const numGraves89 = 42; // adjust the graves
       createGraveColumn(startLat89, startLng89, numGraves89, 1, "E", 89);
 
-      const startLat90 = 14.87059;  // Adjusted latitude
+      const startLat90 = 14.87059; // Adjusted latitude
       const startLng90 = startLng89 + columnSpacing;
       const numGraves90 = 35; // adjust the graves
       createGraveColumn(startLat90, startLng90, numGraves90, 1, "E", 90);
 
-      const startLat91 = 14.87057;  // Adjusted latitude
+      const startLat91 = 14.87057; // Adjusted latitude
       const startLng91 = startLng90 + columnSpacing;
       const numGraves91 = 30; // adjust the graves
       createGraveColumn(startLat91, startLng91, numGraves91, 1, "E", 91);
 
-      const startLat92 = 14.87056;  // Adjusted latitude
+      const startLat92 = 14.87056; // Adjusted latitude
       const startLng92 = startLng91 + columnSpacing;
       const numGraves92 = 23; // adjust the graves
       createGraveColumn(startLat92, startLng92, numGraves92, 1, "E", 92);
 
-      const startLat93 = 14.87055;  // Adjusted latitude
+      const startLat93 = 14.87055; // Adjusted latitude
       const startLng93 = startLng92 + columnSpacing;
       const numGraves93 = 17; // adjust the graves
       createGraveColumn(startLat93, startLng93, numGraves93, 1, "E", 93);
 
-      const startLat94 = 14.87054;  // Adjusted latitude
+      const startLat94 = 14.87054; // Adjusted latitude
       const startLng94 = startLng93 + columnSpacing;
       const numGraves94 = 11; // adjust the graves
       createGraveColumn(startLat94, startLng94, numGraves94, 1, "E", 94);
 
-      const startLat95 = 14.87053;  // Adjusted latitude
+      const startLat95 = 14.87053; // Adjusted latitude
       const startLng95 = startLng94 + columnSpacing;
       const numGraves95 = 5; // adjust the graves
       createGraveColumn(startLat95, startLng95, numGraves95, 1, "E", 95);
 
 
       // Phase 1 Lawn E (Should contain approximately 399 graves)
-      const startLat96 = 14.871400;  // Adjusted latitude
-      const startLng96 = startLng70 + columnSpacing + columnSpacing + columnSpacing + columnSpacing
-        + columnSpacing + columnSpacing + columnSpacing + columnSpacing;
+      const startLat96 = 14.871400; // Adjusted latitude
+      const startLng96 = startLng70 + columnSpacing + columnSpacing + columnSpacing + columnSpacing +
+        columnSpacing + columnSpacing + columnSpacing + columnSpacing;
       const numGraves96 = 47; // adjust the graves
       createGraveColumn(startLat96, startLng96, numGraves96, 1, "F", 96);
 
-      const startLat97 = 14.871390;  // Adjusted latitude
+      const startLat97 = 14.871390; // Adjusted latitude
       const startLng97 = startLng96 + columnSpacing;
       const numGraves97 = 48; // adjust the graves
       createGraveColumn(startLat97, startLng97, numGraves97, 1, "F", 97);
 
-      const startLat98 = 14.871380;  // Adjusted latitude
+      const startLat98 = 14.871380; // Adjusted latitude
       const startLng98 = startLng97 + columnSpacing;
       const numGraves98 = 49; // adjust the graves
       createGraveColumn(startLat98, startLng98, numGraves98, 1, "F", 98);
 
-      const startLat99 = 14.871360;  // Adjusted latitude
+      const startLat99 = 14.871360; // Adjusted latitude
       const startLng99 = startLng98 + columnSpacing;
       const numGraves99 = 52; // adjust the graves
       createGraveColumn(startLat99, startLng99, numGraves99, 1, "F", 99);
 
-      const startLat100 = 14.8713435;  // Adjusted latitude
+      const startLat100 = 14.8713435; // Adjusted latitude
       const startLng100 = startLng99 + columnSpacing;
       const numGraves100 = 52; // adjust the graves
       createGraveColumn(startLat100, startLng100, numGraves100, 1, "F", 100);
 
-      const startLat101 = 14.871290;  // Adjusted latitude
+      const startLat101 = 14.871290; // Adjusted latitude
       const startLng101 = startLng100 + columnSpacing;
       const numGraves101 = 57; // adjust the graves
       createGraveColumn(startLat101, startLng101, numGraves101, 1, "F", 101);
 
-      const startLat102 = 14.871290;  // Adjusted latitude
+      const startLat102 = 14.871290; // Adjusted latitude
       const startLng102 = startLng101 + columnSpacing;
       const numGraves102 = 56; // adjust the graves
       createGraveColumn(startLat102, startLng102, numGraves102, 1, "F", 102);
 
-      const startLat103 = 14.871290;  // Adjusted latitude
+      const startLat103 = 14.871290; // Adjusted latitude
       const startLng103 = startLng102 + columnSpacing;
       const numGraves103 = 55; // adjust the graves
       createGraveColumn(startLat103, startLng103, numGraves103, 1, "F", 103);
 
-      const startLat104 = 14.871285;  // Adjusted latitude
+      const startLat104 = 14.871285; // Adjusted latitude
       const startLng104 = startLng103 + columnSpacing;
       const numGraves104 = 53; // adjust the graves
       createGraveColumn(startLat104, startLng104, numGraves104, 1, "F", 104);
 
-      const startLat105 = 14.871285;  // Adjusted latitude
+      const startLat105 = 14.871285; // Adjusted latitude
       const startLng105 = startLng104 + columnSpacing;
       const numGraves105 = 46; // adjust the graves
       createGraveColumn(startLat105, startLng105, numGraves105, 1, "F", 105);
 
-      const startLat106 = 14.871285;  // Adjusted latitude
+      const startLat106 = 14.871285; // Adjusted latitude
       const startLng106 = startLng105 + columnSpacing;
       const numGraves106 = 37; // adjust the graves
       createGraveColumn(startLat106, startLng106, numGraves106, 1, "F", 106);
 
-      const startLat107 = 14.871285;  // Adjusted latitude
+      const startLat107 = 14.871285; // Adjusted latitude
       const startLng107 = startLng106 + columnSpacing;
       const numGraves107 = 27; // adjust the graves
       createGraveColumn(startLat107, startLng107, numGraves107, 1, "F", 107);
 
-      const startLat108 = 14.871285;  // Adjusted latitude
+      const startLat108 = 14.871285; // Adjusted latitude
       const startLng108 = startLng107 + columnSpacing;
       const numGraves108 = 20; // adjust the graves
       createGraveColumn(startLat108, startLng108, numGraves108, 1, "F", 108);
 
-      const startLat109 = 14.871285;  // Adjusted latitude
+      const startLat109 = 14.871285; // Adjusted latitude
       const startLng109 = startLng108 + columnSpacing;
       const numGraves109 = 11; // adjust the graves
       createGraveColumn(startLat109, startLng109, numGraves109, 1, "F", 109);
 
-      const startLat110 = 14.871285;  // Adjusted latitude
+      const startLat110 = 14.871285; // Adjusted latitude
       const startLng110 = startLng109 + columnSpacing;
       const numGraves110 = 3; // adjust the graves
       createGraveColumn(startLat110, startLng110, numGraves110, 1, "F", 110);
 
 
-      // Phase 1 Lawn G (Should contain approximately 399 graves)
-      const startLat111 = 14.871195;  // Adjusted latitude
+      // Phase 1 Lawn G (Should contain approximately 628 graves)
+      const startLat111 = 14.871205; // Adjusted latitude
       const startLng111 = startLng110 + columnSpacing + columnSpacing + columnSpacing + columnSpacing;
-      const numGraves111 = 3; // adjust the graves
+      const numGraves111 = 2; // adjust the graves
       createGraveColumn(startLat111, startLng111, numGraves111, 1, "G", 111);
 
-      const startLat112 = 14.871105;  // Adjusted latitude
+      const startLat112 = 14.871153; // Adjusted latitude
       const startLng112 = startLng111 + columnSpacing;
-      const numGraves112 = 12; // adjust the graves
-      createGraveColumn(startLat112, startLng112, numGraves112, 1, "G", 111);
+      const numGraves112 = 7; // adjust the graves
+      createGraveColumn(startLat112, startLng112, numGraves112, 1, "G", 112);
+
+      const startLat113 = 14.871073; // Adjusted latitude (moved further south)
+      const startLng113 = startLng112 + columnSpacing;
+      const numGraves113 = 15; // adjust the graves
+      createGraveColumn(startLat113, startLng113, numGraves113, 1, "G", 113);
+
+      const startLat114 = 14.8710023; // Adjusted latitude (moved further south)14.871168755904218, 120.97827654274222
+      const startLng114 = startLng113 + columnSpacing;
+      const numGraves114 = 22; // adjust the graves
+      createGraveColumn(startLat114, startLng114, numGraves114, 1, "G", 114);
+
+      const startLat115 = 14.870911; // Adjusted latitude (moved further south)
+      const startLng115 = startLng114 + columnSpacing;
+      const numGraves115 = 31; // adjust the graves
+      createGraveColumn(startLat115, startLng115, numGraves115, 1, "G", 115);
+
+      const startLat116 = 14.870850; // Adjusted latitude (moved further south)
+      const startLng116 = startLng115 + columnSpacing;
+      const numGraves116 = 37; // adjust the graves
+      createGraveColumn(startLat116, startLng116, numGraves116, 1, "G", 116);
+
+      const startLat117 = 14.870849; // Adjusted latitude (moved further south)
+      const startLng117 = startLng116 + columnSpacing;
+      const numGraves117 = 37; // adjust the graves
+      createGraveColumn(startLat117, startLng117, numGraves117, 1, "G", 117);
+
+      const startLat118 = 14.870848; // Adjusted latitude (moved further south)
+      const startLng118 = startLng117 + columnSpacing;
+      const numGraves118 = 37; // adjust the graves
+      createGraveColumn(startLat118, startLng118, numGraves118, 1, "G", 118);
+
+      const startLat119 = 14.870845; // Adjusted latitude (moved further south)
+      const startLng119 = startLng118 + columnSpacing;
+      const numGraves119 = 37; // adjust the graves
+      createGraveColumn(startLat119, startLng119, numGraves119, 1, "G", 119);
+
+      const startLat120 = 14.870844; // Adjusted latitude (moved further south)
+      const startLng120 = startLng119 + columnSpacing;
+      const numGraves120 = 37; // adjust the graves
+      createGraveColumn(startLat120, startLng120, numGraves120, 1, "G", 120);
+
+      const startLat121 = 14.870843; // Adjusted latitude (moved further south)
+      const startLng121 = startLng120 + columnSpacing;
+      const numGraves121 = 37; // adjust the graves
+      createGraveColumn(startLat121, startLng121, numGraves121, 1, "G", 121);
+
+      const startLat122 = 14.870843; // Adjusted latitude (moved further south)
+      const startLng122 = startLng121 + columnSpacing;
+      const numGraves122 = 37; // adjust the graves
+      createGraveColumn(startLat122, startLng122, numGraves122, 1, "G", 122);
+
+      const startLat123 = 14.870843; // Adjusted latitude (moved further south)
+      const startLng123 = startLng122 + columnSpacing;
+      const numGraves123 = 37; // adjust the graves
+      createGraveColumn(startLat123, startLng123, numGraves123, 1, "G", 123);
+
+      const startLat124 = 14.870840; // Adjusted latitude (moved further south)
+      const startLng124 = startLng123 + columnSpacing;
+      const numGraves124 = 32; // adjust the graves
+      createGraveColumn(startLat124, startLng124, numGraves124, 1, "G", 124);
+
+      const startLat125 = 14.870840; // Same latitude as startLat123
+      const startLng125 = startLng124 + columnSpacing; // Increment from the previous column's longitude
+      const numGraves125 = 25; // Adjust the graves
+      createGraveColumn(startLat125, startLng125, numGraves125, 1, "G", 125);
+
+      const startLat126 = 14.870838; // Same latitude as startLat123
+      const startLng126 = startLng125 + columnSpacing;
+      const numGraves126 = 18; // Adjust the graves
+      createGraveColumn(startLat126, startLng126, numGraves126, 1, "G", 126);
+
+      const startLat127 = 14.870837; // Same latitude as startLat123
+      const startLng127 = startLng126 + columnSpacing;
+      const numGraves127 = 9; // Adjust the graves
+      createGraveColumn(startLat127, startLng127, numGraves127, 1, "G", 127);
+
+      const startLat128 = 14.870833; // Same latitude as startLat123
+      const startLng128 = startLng127 + columnSpacing;
+      const numGraves128 = 2; // Adjust the graves
+      createGraveColumn(startLat128, startLng128, numGraves128, 1, "G", 128);
 
 
 
+      // NOTE: KAPAG MAG-UUMPISA NG BAGONG LAWN:
+      // 1. Punta sa Google Maps
+      // 2. Right-click yung spot na gustong lagyan (example, 14.871158463742546, 120.97843783523756)
+      // 3. Paste sa VS code yung coordinates (example, 14.871158463742546, 120.97843783523756)
+
+      // Phase 1 Lawn H (Should contain approximately 628 graves) 14.871158463742546, 120.97843783523756
+      const startLat129 = 14.871173; // Adjusted latitude
+      const startLng129 = 120.97843783523756;
+      const numGraves129 = 3; // adjust the graves
+      createGraveColumn(startLat129, startLng129, numGraves129, 1, "H", 129);
+
+      const startLat130 = 14.871085; // Adjusted latitude
+      const startLng130 = startLng129 + columnSpacing;
+      const numGraves130 = 12; // adjust the graves
+      createGraveColumn(startLat130, startLng130, numGraves130, 1, "H", 130);
+
+      const startLat131 = 14.871001; // Adjusted latitude
+      const startLng131 = startLng130 + columnSpacing;
+      const numGraves131 = 20; // adjust the graves
+      createGraveColumn(startLat131, startLng131, numGraves131, 1, "H", 131);
 
       var latlngs = [
         [14.871167768208937, 120.97843093203585],
@@ -888,21 +988,21 @@
 
       // Create a polyline (line) from the coordinates
       var polyline = L.polyline(latlngs, {
-        color: 'blue',        // Line color
-        weight: 4,            // Line thickness
-        opacity: 0.7          // Line opacity
+        color: 'blue', // Line color
+        weight: 4, // Line thickness
+        opacity: 0.7 // Line opacity
       }).addTo(map);
 
       var latlngs2 = [
         [14.871135034293799, 120.9786334756037], // 14.871135034293799, 120.9786334756037
-        [14.870500357332057, 120.97880163288028]  // 14.870500357332057, 120.97880163288028
+        [14.870500357332057, 120.97880163288028] // 14.870500357332057, 120.97880163288028
       ];
 
       // Create a polyline (line) from the coordinates
       var polyline = L.polyline(latlngs2, {
-        color: 'blue',        // Line color
-        weight: 4,            // Line thickness
-        opacity: 0.7          // Line opacity
+        color: 'blue', // Line color
+        weight: 4, // Line thickness
+        opacity: 0.7 // Line opacity
       }).addTo(map);
 
       // 14.87082324409059, 120.9783014139407
@@ -914,67 +1014,65 @@
 
       // Create a polyline (line) from the coordinates
       var polyline = L.polyline(latlngs3, {
-        color: 'blue',        // Line color
-        weight: 4,            // Line thickness
-        opacity: 0.7          // Line opacity
+        color: 'blue', // Line color
+        weight: 4, // Line thickness
+        opacity: 0.7 // Line opacity
       }).addTo(map);
 
-      var latlngs4 = [ 
+      var latlngs4 = [
         [14.870823588321286, 120.9785129174872], // 14.870840588321286, 120.97851726174872
         [14.870825668879982, 120.9787136423956] // 14.870825668879982, 120.9787216423956
       ];
 
       var polyline = L.polyline(latlngs4, {
-        color: 'blue',        // Line color
-        weight: 4,            // Line thickness
-        opacity: 0.7          // Line opacity
+        color: 'blue', // Line color
+        weight: 4, // Line thickness
+        opacity: 0.7 // Line opacity
       }).addTo(map);
 
       var latlngs5 = [
         [14.87115007516071, 120.9788480419537], //14.87111007516071, 120.9788480419537
-        [14.870514957636505, 120.97898562500829]  //14.870514957636505, 120.97898562500829
+        [14.870514957636505, 120.97898562500829] //14.870514957636505, 120.97898562500829
       ];
 
       // Create a polyline (line) from the coordinates
       var polyline = L.polyline(latlngs5, {
-        color: 'blue',        // Line color
-        weight: 4,            // Line thickness
-        opacity: 0.7          // Line opacity
+        color: 'blue', // Line color
+        weight: 4, // Line thickness
+        opacity: 0.7 // Line opacity
       }).addTo(map);
 
 
       var latlngs6 = [
         [14.870825765570137, 120.97871271436804], //14.870839765570137, 120.97871271436804
-        [14.87083322581791, 120.97891570575337]  //14.87083322581791, 120.97891570575337
+        [14.87083322581791, 120.97891570575337] //14.87083322581791, 120.97891570575337
       ];
 
       // Create a polyline (line) from the coordinates
       var polyline = L.polyline(latlngs6, {
-        color: 'blue',        // Line color
-        weight: 4,            // Line thickness
-        opacity: 0.7          // Line opacity
+        color: 'blue', // Line color
+        weight: 4, // Line thickness
+        opacity: 0.7 // Line opacity
       }).addTo(map);
 
-      var latlngs6 = [
-        [14.87083322581791, 120.97891570575337], //14.870839765570137, 120.97871271436804
-        [14.870831426642383, 120.97911997443785] //14.870811426642383, 120.97912997443785
-      ];
+      // var latlngs6 = [
+      //   [14.87083322581791, 120.97891570575337], //14.870839765570137, 120.97871271436804
+      //   [14.870831426642383, 120.97911997443785] //14.870811426642383, 120.97912997443785
+      // ];
 
-      // Create a polyline (line) from the coordinates
-      var polyline = L.polyline(latlngs6, {
-        color: 'blue',        // Line color
-        weight: 4,            // Line thickness
-        opacity: 0.7          // Line opacity
-      }).addTo(map);
+      // // Create a polyline (line) from the coordinates
+      // var polyline = L.polyline(latlngs6, {
+      //   color: 'blue',        // Line color
+      //   weight: 4,            // Line thickness
+      //   opacity: 0.7          // Line opacity
+      // }).addTo(map);
 
+      // // Add legend to the map
+      // const legend = L.control({
+      //   position: "bottomright"
+      // });
 
-
-      // Add legend to the map
-      const legend = L.control({
-        position: "bottomright"
-      });
-
-      legend.onAdd = function () {
+      legend.onAdd = function() {
         const div = L.DomUtil.create("div", "info legend");
 
         // Status options and colors
